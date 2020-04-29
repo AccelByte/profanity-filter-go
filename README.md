@@ -1,5 +1,5 @@
 
-# request-envelope-go
+# profanity-filter-go
 Profanity filter to check if a message contains blacklisted words
 
 # usage
@@ -25,6 +25,6 @@ Profanity filter to check if a message contains blacklisted words
 ```
 > go run main.go
 Bad words found:  true
-Swears tripped:  [fuck]
+Bad words tripped:  [fuck]
 Error:  <nil>
 ```
