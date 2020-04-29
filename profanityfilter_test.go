@@ -45,7 +45,7 @@ func Test_ProfanityCheck(t *testing.T) {
 
 	for i, v := range inputs {
 		t.Run("Test_"+i, func(t *testing.T) {
-			isSwearWord, swearFound, err := profanityfilter.ProfanityCheck(v)
+			isSwearWord, swearFound, err := profanityfilter.Filter.ProfanityCheck(v)
 			if err != nil {
 				t.Fatal(err.Error())
 			}
