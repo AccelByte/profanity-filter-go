@@ -21,7 +21,7 @@ Profanity filter to check if a message contains blacklisted words
 
     
 ```
-###Output
+### Output
 ```
 > go run main.go
 Bad words found:  true
