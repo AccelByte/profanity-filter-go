@@ -12,6 +12,8 @@ type profanityAllCountries struct {
 	ProfanityCountries []profanityList
 }
 
+// Profanity list generated from json file under naughty-words-js-master directory
+// Please find the documentation in README.md
 // nolint: lll
 var arabicProfanityList = profanityList{
 	Country:     "Arabic",
