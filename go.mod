@@ -1,4 +1,4 @@
-module accelbyte.net/profanity-filter-go
+module github.com/AccelByte/profanity-filter-go
 
 go 1.13
 
