@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	profanityfilter "accelbyte.net/profanity-filter-go"
+	profanityfilter "github.com/AccelByte/profanity-filter-go"
 )
 
 func Test_ProfanityCheck(t *testing.T) {
